@@ -38,7 +38,7 @@ target_sources(rr-tests
     "tests/test.cc"
 )
 target_link_libraries(rr-tests run_record gtest gtest_main)
-add_test(NAME "algorithm-template-tests" COMMAND "algorithm-template-tests")
+add_test(NAME "rr-tests" COMMAND "rr-tests")
 
 # app
 add_executable(rr-app "")
